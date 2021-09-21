@@ -1,0 +1,14 @@
+#!/bin/bash
+#include <stdio.h>
+
+int main()
+{
+   char ch;
+   printf("Enter any character\n");
+   scanf("%c", &ch);
+
+   if ( islower ( ch ) )
+   printf ( "\nEntered character is lower case character") ;
+   else
+   printf("\nEntered character is not lower case character");
+}
