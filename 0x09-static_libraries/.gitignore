@@ -3,4 +3,9 @@
 *~
 *.o
 *.c
+/* don't show these files */
+
+*~
+*.o
+*.c
 
